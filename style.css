@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+.hero
+{
+    padding: 1rem;
+    background-color: #907f50;
+}
+
+.hero-img
+{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading
+{
+    color: var(--dark-yellow);
+    text-align: center; 
+}
+
+#inputID
+{
+    display: block;
+    height: 20vh;
+    width: 50%;
+    border: 3px solid;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    
+}
+
+#btn-translate 
+{
+    display: block;
+    padding: 10px 20px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color:#907f50;
+    border-radius: 8px;
+    cursor: pointer;
+    
+
+}
+
+#output {
+    display: block;
+    height: 20vh;
+    width: 50%;
+    border: 3px solid;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    background-color: #ffffff;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+}
+
