@@ -9,6 +9,11 @@ function getTranslationURL(input)
     return sourceURL + "?text=" + input;
 }
 
+function errorHandler(error){
+    console.log("Error Occured: ",error);
+    alert("Something went wrong with the server! Please try again after sometime :(");
+}
+
 function clickHandler() 
 {
     var textIp = ipText.value;
@@ -20,6 +25,8 @@ function clickHandler()
             var translatedText = json.contents.translated;
             outputField.innerText = translatedText;
            })
+
+    .catch(errorHandler);
 
 }
 
